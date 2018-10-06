@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for post in posts %}
+    <div>
+        <p>아이디: {{ post.id }}</p>
+        <p>이름: {{ post.name }}</p>
+    </div>
+{% endfor %}
+</body>
+</html>
